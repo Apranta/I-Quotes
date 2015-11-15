@@ -1,5 +1,6 @@
 <html>
 	<head>
+		<title>I-Quotes</title>
 		<link type="text/css" rel="stylesheet" href="asset/css/bootstrap.min.css"/>
 		<link rel="stylesheet" href="asset/css/styles.css"/>
 		<link type="text/css" rel="stylesheet" href="asset/css/bootstrap.min.js"/>
