@@ -33,6 +33,7 @@ audio:not([controls]) {
 
 a {
     background-color: transparent
+    color: inherit
 }
 
 a:active, a:hover {
