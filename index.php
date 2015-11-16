@@ -33,16 +33,17 @@
 						<button type="submit" class="btn btn-primary" name="kirim">Submit</button>
 					</td>
 				</tr>
-			</table>
-		</form>
-
-		<table>
-			<tr>
+					<tr>
 					<td align="center">
 						<button type="submit" class="btn btn-primary" name="tampil"> <a href="tampil.php">Tampil</a>  </button>
 					</td>
 				</tr>
-		</table>
+			</table>
+		</form>
+
+		
+		
+	
 		
 			
 
