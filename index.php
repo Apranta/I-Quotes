@@ -36,7 +36,9 @@
 			</table>
 		</form>
 
-
+		<div>
+			<button type="submit" class="btn btn-primary" name="tampil"> <a href="tampil.php">Tampil</a>  </button>
+		</div>
 		<?php 
 		if(isset($_GET['kirim']))
 		{
