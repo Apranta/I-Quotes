@@ -35,7 +35,7 @@
 				</tr>
 					<tr>
 					<td align="center">
-						<button type="kirim" class="btn btn-primary" name="tampil"> <a href="tampil.php">Tampil</a></button>
+						<button type="kirim" class="btn btn-primary" name="tampil"> <a href="tampil.php" class="">Tampil</a></button>
 					</td>
 				</tr>
 			</table>
