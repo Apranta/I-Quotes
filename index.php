@@ -9,6 +9,10 @@
 	<body>
 		<form role="form" class="form-horizontal" action="" method="GET">
 			<h1 align="center"> <font face="Tahoma"> <u>I - Quotes </font></h1>
+			<div>
+			ilkom Quotes adalah portal yang berisi tentang kumpulan quotes - quotes anak anak fakultas ilmu komputer universitas sriwijaya.
+			So, submit your best quotes and don't spam :)
+			</div>
 			<table class="table table-responsive" align="center">
 				<tr>
 					<td>Author</td>
@@ -39,13 +43,7 @@
 					</td>
 				</tr>
 			</table>
-		</form>
-
-		
-		
-	
-		
-			
+		</form>	
 
 		<?php 
 		if(isset($_GET['kirim']))
