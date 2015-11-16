@@ -9,14 +9,21 @@
 	<body>
 		<form role="form" class="form-horizontal" action="" method="GET">
 			<h1 align="center"> <font face="Tahoma"> <u>I - Quotes </font></h1>
-			<div>
-			ilkom Quotes adalah portal yang berisi tentang kumpulan quotes - quotes anak anak fakultas ilmu komputer universitas sriwijaya.
-			So, submit your best quotes and don't spam :)
-			</div>
 			<table class="table table-responsive" align="center">
+				<tr>
+					<td>ilkom Quotes adalah portal yang berisi tentang kumpulan quotes - quotes anak anak fakultas ilmu komputer universitas sriwijaya.
+			So, submit your best quotes and don't spam :)
+			</td>
+				</tr>
+
+				<tr>
+					<td></td>
+				</tr>
+
 				<tr>
 					<td>Author</td>
 				</tr>
+
 				<tr>
 					<td>
 					<input type="text" class="form-control" name="Author" placeholder="Masukan Nama anda" width="10">
