@@ -36,9 +36,16 @@
 			</table>
 		</form>
 
-		<div>
-			<button type="submit" class="btn btn-primary" name="tampil"> <a href="tampil.php">Tampil</a>  </button>
-		</div>
+		<table>
+			<tr>
+					<td align="center">
+						<button type="submit" class="btn btn-primary" name="tampil"> <a href="tampil.php">Tampil</a>  </button>
+					</td>
+				</tr>
+		</table>
+		
+			
+
 		<?php 
 		if(isset($_GET['kirim']))
 		{
