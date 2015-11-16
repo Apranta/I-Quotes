@@ -11,9 +11,11 @@
 			<h1 align="center"> <font face="Tahoma"> <u>I - Quotes </font></h1>
 			<table class="table table-responsive" align="center">
 				<tr>
-					<td>ilkom Quotes adalah portal yang berisi tentang kumpulan quotes - quotes anak anak fakultas ilmu komputer universitas sriwijaya.
-			So, submit your best quotes and don't spam :)
-			</td>
+					<td align="center">
+					<font style="calibri"> ilkom Quotes adalah portal yang berisi tentang kumpulan quotes - quotes anak anak fakultas ilmu komputer universitas sriwijaya.
+						So, submit your best quotes and don't spam :)
+					</font>
+					</td>
 				</tr>
 
 				<tr>
