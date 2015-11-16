@@ -44,6 +44,16 @@
 						<button type="kirim" class="btn btn-primary" name="tampil"> <a href="tampil.php" class="">Tampil</a></button>
 					</td>
 				</tr>
+				<tr>
+					<td></td>
+				</tr>
+				<tr align="center">
+					<td>
+					<font> ilkom Quotes adalah portal yang berisi tentang kumpulan quotes - quotes anak anak fakultas ilmu komputer universitas sriwijaya.
+						So, submit your best quotes and don't spam :)
+					</font>
+					</td>
+				</tr>
 			</table>
 		</form>	
 
@@ -72,15 +82,7 @@
 		}
 	?>
 	</body>
-	<footer>
-	<table>
-		<tr align="center">
-					<td>
-					<font> ilkom Quotes adalah portal yang berisi tentang kumpulan quotes - quotes anak anak fakultas ilmu komputer universitas sriwijaya.
-						So, submit your best quotes and don't spam :)
-					</font>
-					</td>
-				</tr>
-	</table>			
-	</footer>
+
+		
+	
 </html>
