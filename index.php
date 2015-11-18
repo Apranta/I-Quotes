@@ -23,11 +23,11 @@
 				while ($data = mysql_fetch_array($hasil))
 				{
 				echo "<tr align = 'center'>
-				<td colspan = "2"> <i> ".$data['Quotes']."
+				<td colspan = '2'> <i> ".$data['Quotes']."
 				 <br>- ".$data['Author']."
 				</td>
 				</tr>
-				<tr><td colspan="2"></td></tr>";
+				<tr><td colspan='2'></td></tr>";
 			}?>
 			
 		</table>
