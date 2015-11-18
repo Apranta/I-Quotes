@@ -13,7 +13,6 @@
 	
 			<tr align=" center">
 				<th align="left">Quotes</th>
-				<th align="right"><button type="submit" class="btn btn-primary" name="kirim"><a href="submit.php" class="">Submit</a></button></th>
 			</tr>
 		
 			<?php
@@ -23,13 +22,17 @@
 				while ($data = mysql_fetch_array($hasil))
 				{
 				echo "<tr align = 'center'>
-				<td colspan = '2'> <i> ".$data['Quotes']."
+				<td > <i> ".$data['Quotes']."
 				 <br>- ".$data['Author']."
 				</td>
 				</tr>
-				<tr><td colspan='2'></td></tr>";
+				<tr><td></td></tr>";
 			}?>
-			
+			<tr>
+				<td>
+					<button type="submit" class="btn btn-primary" name="kirim"><a class='btn btn-warning' href="submit.php">Submit</a></button>
+				</td>
+			</tr>
 		</table>
 	</div>
 </body>
