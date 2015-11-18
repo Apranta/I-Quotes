@@ -7,8 +7,15 @@
 		<link type="text/css" rel="stylesheet" href="asset/css/jquery.min.js"/>
 	</head>
 	<body>
+		<div class="container">
+  			<div class="jumbotron">
+    			<h1>I - Quotes</h1> 
+    			<p>ilkom Quotes adalah portal yang berisi tentang kumpulan quotes - quotes anak anak fakultas ilmu komputer universitas sriwijaya.
+				So, submit your best quotes and don't spam :)</p>
+  			</div>
+		</div>
+
 		<form role="form" class="form-horizontal" action="" method="GET">
-			<h1 align="center"> <font style="Tahoma"> <u>I - Quotes </font></h1>
 			<table class="table table-responsive" align="center">
 
 				<tr>
@@ -39,20 +46,8 @@
 						<button type="submit" class="btn btn-primary" name="kirim">Submit</button>
 					</td>
 				</tr>
-					<tr>
-					<td align="center">
-						<button type="kirim" class="btn btn-primary" name="tampil"> <a href="index.php" class="">Tampil</a></button>
-					</td>
-				</tr>
 				<tr>
 					<td></td>
-				</tr>
-				<tr align="center">
-					<td>
-					<font> ilkom Quotes adalah portal yang berisi tentang kumpulan quotes - quotes anak anak fakultas ilmu komputer universitas sriwijaya.
-						So, submit your best quotes and don't spam :)
-					</font>
-					</td>
 				</tr>
 			</table>
 		</form>	

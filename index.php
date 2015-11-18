@@ -7,13 +7,13 @@
 </head>
 
 <body>
-	<div class="container" align="center">
-		<h1>Ilkom - Quotes</h1>
+	<div class="container">
+  			<div class="jumbotron">
+    		<font face="Comic Sans Ms"><h1>Ilkom  Quotes</h1></font> 
+    			<p> Kumpulan Quotes anak anak Fakultas Ilmu Komputer Universitas Sriwijaya </p>
+  			</div>
+		</div>
 		<table class="table " align="center">
-	
-			<tr align=" center">
-				<th align="left">Quotes</th>
-			</tr>
 		
 			<?php
 				include "koneksi.php";
@@ -30,7 +30,7 @@
 			}?>
 			<tr>
 				<td>
-					<button type="submit" class="btn btn-primary" name="kirim"><a href="submit.php">Submit</a></button>
+					<a href="submit.php" class="btn btn-success">Submit Quotes</a>
 				</td>
 			</tr>
 		</table>

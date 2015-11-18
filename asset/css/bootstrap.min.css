@@ -11,7 +11,8 @@ html {
 
 body {
     margin: 0
-    width : 900;
+    width : 50%;
+    text-align: center;
 }
 
 
@@ -34,8 +35,12 @@ audio:not([controls]) {
 }
 
 a {
-    background-color: transparent;
-    text-decoration : white;
+    background-color: transparent
+
+}
+
+p {
+    font-family: "Calibri";
 }
 
 a:active, a:hover {
@@ -57,7 +62,7 @@ dfn {
 h1 {
     margin: .67em 0;
     font-size: 2em
-    font-style : calibri;
+    font-style : Comic Sans Ms;
 }
 
 mark {
@@ -188,6 +193,7 @@ optgroup {
 table {
     border-spacing: 0;
     border-collapse: collapse
+    text-decoration : none;
 }
 
 td, th ,tr {
@@ -205,9 +211,7 @@ td, th ,tr {
         box-shadow: none !important
     }
 
-    a, a:visited {
-        text-decoration: underline
-    }
+  
 
     a[href]:after {
         content: " (" attr(href) ")"
@@ -1360,6 +1364,7 @@ body {
     font-size: 14px;
     line-height: 1.42857143;
     color: #333;
+    text-decoration : none;
 }
 
 button, input, select, textarea {
@@ -5345,10 +5350,12 @@ a.badge:focus, a.badge:hover {
     margin-bottom: 30px;
     color: inherit;
     background-color: #eee
+
 }
 
 .jumbotron .h1, .jumbotron h1 {
     color: inherit
+
 }
 
 .jumbotron p {
