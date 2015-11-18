@@ -8,7 +8,7 @@
 	</head>
 	<body>
 		<form role="form" class="form-horizontal" action="" method="GET">
-			<h1 align="center"> <font face="Tahoma"> <u>I - Quotes </font></h1>
+			<h1 align="center"> <font style="Tahoma"> <u>I - Quotes </font></h1>
 			<table class="table table-responsive" align="center">
 
 				<tr>

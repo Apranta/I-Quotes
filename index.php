@@ -8,12 +8,12 @@
 
 <body>
 	<div class="container" align="center">
-		<h1>ilkom Quotes</h1>
+		<h1>Ilkom - Quotes</h1>
 		<table class="table " align="center">
 	
 			<tr align=" center">
 				<th align="left">Quotes</th>
-				<th align="right"><button type="submit" class="btn btn-primary" name="kirim"><a href="index.php" class="">Submit</a></button></th>
+				<th align="right"><button type="submit" class="btn btn-primary" name="kirim"><a href="submit.php" class="">Submit</a></button></th>
 			</tr>
 		
 			<?php
@@ -23,11 +23,11 @@
 				while ($data = mysql_fetch_array($hasil))
 				{
 				echo "<tr align = 'center'>
-				<td> <i> ".$data['Quotes']."
+				<td colspan = "2"> <i> ".$data['Quotes']."
 				 <br>- ".$data['Author']."
 				</td>
 				</tr>
-				<tr><td></td></tr>";
+				<tr><td colspan="2"></td></tr>";
 			}?>
 			
 		</table>
