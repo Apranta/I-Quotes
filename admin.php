@@ -9,7 +9,6 @@
 		<h1>Data Quotes</h1>
 		<table class="table " align="center">
 			<tr>
-				<th>No</th>
 				<th>Author</th>
 				<th>Quotes</th>
 				<th>Aksi</th>
@@ -21,7 +20,6 @@
 				while ($data = mysql_fetch_array($hasil))
 				{
 				echo "<tr>
-				<td>".$data['No']."</td>
 				<td>".$data['Author']."</td>
 				<td>".$data['Quotes']."</td>
 				<td><a class='btn btn-danger' href=delete.php?id=".$data['No'].">HAPUS</a></td>

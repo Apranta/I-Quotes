@@ -30,7 +30,7 @@
 			}?>
 			<tr>
 				<td>
-					<button type="submit" class="btn btn-primary" name="kirim"><a class='btn btn-warning' href="submit.php">Submit</a></button>
+					<button type="submit" name="kirim"><a class='btn btn-warning' href="submit.php">Submit</a></button>
 				</td>
 			</tr>
 		</table>
