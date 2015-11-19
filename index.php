@@ -11,6 +11,9 @@
   			<div class="jumbotron">
     		<font face="Comic Sans Ms"><h1>Ilkom  Quotes</h1></font> 
     			<p> Kumpulan Quotes anak anak Fakultas Ilmu Komputer Universitas Sriwijaya </p>
+    			<div align="center">
+    				<a href="submit.php" class="btn btn-success">Submit Quotes</a>
+    			</div>
   			</div>
 		</div>
 		<table class="table " align="center">
@@ -28,11 +31,7 @@
 				</tr>
 				<tr><td></td></tr>";
 			}?>
-			<tr>
-				<td>
-					<a href="submit.php" class="btn btn-success">Submit Quotes</a>
-				</td>
-			</tr>
+		
 		</table>
 	</div>
 </body>
