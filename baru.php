@@ -10,7 +10,7 @@ $outp = "";
 while($rs = $result->fetch_array(MYSQLI_ASSOC)) {
     if ($outp != "") {$outp .= ",";}
     $outp .= '{"Quotes":"'  . $rs["Quotes"] . '",';
-    $outp .= '"Author":"'   . $rs["Author"]        . '",';
+    $outp .= '"Author":"'   . $rs["Author"]        . '"}';
 }
 $outp ='{"records":['.$outp.']}';
 $conn->close();
